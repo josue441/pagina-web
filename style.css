@@ -1,16 +1,21 @@
-.img1{
-    width: 50%; 
-    height: auto;
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #5988FF; /* El color del fondo de la página web */
+    color: #000000; /* El color del texto h2 o subtitulo*/ 
+}
+h1 {
+    color: #FFFFFF; /* El color del texto h1 */
+    font-size: 24px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* La familia tipográfica utilizada en la cabecera */
 }
 
-h1{
-    color: gold;
+p{
+    color: #D6FF6B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15;
-    background-color: wheat 
+h2{
+    color:#FFFFFF;
+    font-family: 'Times New Roman', Times, serif
 }
-
