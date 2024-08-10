@@ -1,3 +1,10 @@
+@keyframes color-change{
+    0%{ color:blue}
+    50%{color:red}
+    100%{color:blue}
+
+}
+
 body {
     font-family: Arial,  sans-serif; /* Familia de fuentes */
     font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
@@ -5,10 +12,9 @@ body {
     color: #000000; /* El color del texto h2 o subtitulo*/ 
 }
 
-h1 {
-    color: #ffffff; /* El color del texto h1 */
-    font-size: 24px; /* El tamaño de la fuente de la cabecera */
-    font-family: Georgia, 'Times New Roman', Times, serif; /* La familia tipográfica utilizada en la cabecera */
+h1:hover {
+    animation:color-change 3s infinite;
+
 }
 
 p{
@@ -20,3 +26,50 @@ h2{
     color:#FFFFFF;
     font-family: 'Times New Roman', Times, serif
 }
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1.round {
+    border: 2px;
+    background-color: hsl(216, 100%, 50%);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+h1.round1 {
+    border: 2px;
+    background-color: hsl(133, 92%, 35%);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+div.center {
+    width: 600px;
+    margin: auto;
+    border: 1px;
+}
+
+div.centro {
+    width: 430px;
+    margin: auto;
+    border: 1px; 
+}
+
+.goku_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+}
+
+.video_1
+ {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+
