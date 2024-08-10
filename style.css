@@ -1,7 +1,8 @@
 @keyframes color-change{
-    0%{ color:blue}
-    50%{color:red}
-    100%{color:blue}
+    0%{ color:blue; font-size: 20px;}
+    50%{color:red;}
+    100%{color:blue; font-size: 25px;}
+
 
 }
 
@@ -15,6 +16,10 @@ body {
 h1:hover {
     animation:color-change 3s infinite;
 
+}
+
+h1 {
+    color: #FFFFFF;
 }
 
 p{
@@ -73,3 +78,8 @@ div.centro {
 
  }
 
+ .clima {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
